@@ -1,0 +1,96 @@
+.Title{
+    position: absolute;
+    text-align: center;
+    font-weight: 90;
+    /*font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-shadow: 4px 4px 10px black;
+    width: 100%;
+  
+}
+.Subtitle{
+    position: absolute;
+    font-family: 'Caveat', cursive;
+    font-family: 'Cinzel', serif;  
+    margin: 20px;
+    font-weight: 70;
+    text-align: center;
+    top:130px;
+    left:650px;
+}
+.Colore1{
+    color: firebrick;
+}
+.Colore2{
+
+    color: black;
+}
+.sfondo{
+    background-image:url(Assets/Logo.jpeg);
+    background-position: 135%;
+    background-repeat:repeat-x;
+    height: 600px;
+    width: 100%;
+}
+.blocco{
+    position: absolute;
+    left: 25px;
+    width: 300px;
+    height: 425px;
+    background-color:transparent;
+}
+div#hormenu {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    }
+    div#hormenu ul
+{
+margin: 0;
+padding: 0;
+list-style-type:none;
+}
+div#hormenu li
+{
+width:100px;
+float:left;
+margin: 0;
+padding: 0;
+border-right: 1px solid black;
+color:black;
+}
+div#hormenu a
+{
+display: block;
+padding: 5px;
+color: #000;
+text-decoration: none;
+}
+div#hormenu a:hover
+{
+background-color: #000033;
+color: #FFFFFF;
+text-decoration: none;
+}
+div#hormenu li ul
+{
+display: none
+}
+div#hormenu li:hover ul
+{
+display: block;
+position: absolute;
+z-index:1;
+width:150px;
+padding: 0;
+margin: 0 0 0 -1px;
+border:1px solid black;
+background: white;
+}
+div#hormenu li li { border:none; width:150px; }
+div#hormenu li li a { padding:2px 2px 2px 10px; }
