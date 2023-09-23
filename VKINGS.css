@@ -9,7 +9,7 @@
     margin-bottom: 0px;
     text-shadow: 4px 4px 10px black;
     width: 100%;
-  
+    z-index: 1;
 }
 .Subtitle{
     position: absolute;
@@ -29,12 +29,25 @@
     color: black;
 }
 .sfondo{
-    background-image:url(Assets/Logo.jpeg);
+    background:url(Assets/Logo.jpeg) repeat ;
     background-position: 135%;
     background-repeat:repeat-x;
     height: 600px;
-    width: 100%;
+    width: 5076%;
+    animation: slide 60s linear infinite;
+
 }
+
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-1692px, 0, 0); 
+    }
+  }
+  
+  
 .blocco{
     position: absolute;
     left: 25px;
